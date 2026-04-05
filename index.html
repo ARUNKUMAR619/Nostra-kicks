@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOSTRA KICKS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Desktop Nav-->
+    <nav class="navbar">
+        <div class="logo">NOSTRA KICKS</div>
+
+        <ul class="nav-links">
+            <li><a href="product.html">New Arrivals</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+        <div class="icons">
+            <i class="fa-solid fa-magnifying-glass" style="color:white;"></i>
+            <i class="fa-regular fa-heart" style="color: white;"></i>
+            <i class="fa-brands fa-opencart" style="color: white;"></i>
+        </div>
+    </nav>
+    <!--mobile nav-->
+    <nav class="mobile-nav">
+        <div class="logo">NOSTRA KICKS</div>
+        <div class="menu-icon" onclick="openMenu()">
+            <i class="fa-solid fa-bars" style="color: white;"></i>
+        </div>
+    </nav>
+    <div class="mobile-menu" id="mobilemenu">
+        <span class="close-btn" onclick="closeMenu()">&times;</span>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">New Arrivals</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+    <div class="slider">
+        <div class="slides">
+
+            <div class="slide active">
+                <img src="./img/header1.jpg">
+
+                <div class="content">
+                    <h1>Stock Variety</h1>
+                    <p>From daily wear to standout pairs, our collection stays fresh and versatile. Whatever your
+                        vibe—simple or bold—you’ll always find something that fits.</p>
+                    <a href="product.html"><button>Shop Now</button></a>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="./img/header2.jpg">
+
+                <div class="content">
+                    <h1>Top Brands</h1>
+                    <p>Only the real names. From timeless classics to trending drops, we bring you brands that define
+                        sneaker culture.</p>
+                    <a href="product.html"><button>Shop Now</button></a>
+
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="./img/header3.jpg">
+
+                <div class="content">
+                    <h1>Style & Identity</h1>
+                    <p>Sneakers speak before you do. Find pairs that match your energy and step out with confidence.</p>
+                    <a href="product.html"><button>Shop Now</button></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <section class="brands">
+
+        <h2>Top Labels</h2>
+
+        <div class="brand-logos">
+
+            <div class="brand"><img src="./img/nike.png"></div>
+            <div class="brand"><img src="./img/adidas.png"></div>
+            <div class="brand"><img src="./img/puma.png"></div>
+            <div class="brand"><img src="./img/newbalance.png"></div>
+            <div class="brand1"><img src="./img/converse.png"></div>
+            <div class="brand"><img src="./img/vans.png"></div>
+
+        </div>
+
+    </section>
+    <section class="recommended">
+
+        <h2>Recommended</h2>
+
+        <div class="products">
+
+            <div class="product">
+                <img src="./img/p1.jpg">
+                <h3>Puma RS-X</h3>
+                <p>₹7,999</p>
+                <button>BUY</button>
+            </div>
+
+            <div class="product">
+                <img src="./img/p2.jpg">
+                <h3>Converse streets</h3>
+                <p>₹12,999</p>
+                <button>BUY</button>
+            </div>
+
+            <div class="product">
+                <img src="./img/p3.jpg">
+                <h3>New Balance RS</h3>
+                <p>₹9,499</p>
+                <button>BUY</button>
+            </div>
+
+            <div class="product">
+                <img src="./img/p4.jpg">
+                <h3>Jordan 1 Low</h3>
+                <p>₹10,999</p>
+                <button>BUY</button>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="recommended">
+
+        <h2>Hot ones</h2>
+
+        <div class="products">
+
+            <div class="product">
+                <img src="./img/p5.jpg">
+                <h3>Puma vX-3</h3>
+                <p><del>₹9,999</del> ₹7,999</p>
+                <button>BUY</button>
+            </div>
+
+            <div class="product">
+                <img src="./img/p6.jpg">
+                <h3>Street Kicks 2s</h3>
+                <p><del>₹12,999</del> ₹6000</p>
+                <button>BUY</button>
+            </div>
+
+            <div class="product">
+                <img src="./img/p7.jpg">
+                <h3>Adidas NMD</h3>
+                <p><del>₹9,999</del> ₹7,499</p>
+                <button>BUY</button>
+            </div>
+
+            <div class="product">
+                <img src="./img/p8.jpg">
+                <h3>PUMA RUNNER</h3>
+                <p><del>₹9,999</del> ₹7,999</p>
+                <button>BUY</button>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="recommended">
+
+        <h2>Pick of the Day</h2>
+
+        <div class="products">
+
+            <div class="product">
+                <img src="./img/p9.jpg">
+                <h3>New Balance RS</h3>
+                <p><del>₹9,999</del> ₹7,999</p>
+                <button>BUY</button>
+            </div>
+
+            <div class="product">
+                <img src="./img/p10.jpg">
+                <h3>Puma SR</h3>
+                <p><del>₹12,999</del> ₹6000</p>
+                <button>BUY</button>
+            </div>
+
+            <div class="product">
+                <img src="./img/p11.jpg">
+                <h3>Adidas Camro</h3>
+                <p><del>₹9,999</del> ₹7,499</p>
+                <button>BUY</button>
+            </div>
+
+            <div class="product">
+                <img src="./img/p12.jpg">
+                <h3>Converse All Star</h3>
+                <p><del>₹9,999</del> ₹7,999</p>
+                <button>BUY</button>
+            </div>
+
+        </div>
+
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <h2>Nostra Kicks</h2>
+                <p>Step into style. Own the street.</p>
+            </div>
+
+            <div class="footer-columns">
+
+                <div class="footer-links">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p>Email: support@nostra.com</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Nostra Kicks. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

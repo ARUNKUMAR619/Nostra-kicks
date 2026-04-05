@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOSTRA KICKS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">NOSTRA KICKS</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">New Arrivals</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+
+        <div class="icons">
+            <i class="fa-regular fa-heart" style="color: white;"></i>
+            <i class="fa-brands fa-opencart" style="color: white;"></i>
+        </div>
+    </nav>
+     <!--mobile nav-->
+    <nav class="mobile-nav">
+        <div class="logo">NOSTRA KICKS</div>
+        <div class="menu-icon" onclick="openMenu()">
+            <i class="fa-solid fa-bars" style="color: white;"></i>
+        </div>
+    </nav>
+    <div class="mobile-menu" id="mobilemenu">
+        <span class="close-btn" onclick="closeMenu()">&times;</span>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">New Arrivals</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+
+    <section class="search-bar">
+        <div class="search-input-wrapper">
+            <input type="search" placeholder="Search sneakers, brands, styles..." aria-label="Search products">
+            <button type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </section>
+
+    <section class="product-section">
+        <h2>New Arrivals</h2>
+
+        <div class="slider-container">
+            <div class="product-slider">
+                <div class="product-card">
+                    <img src="./img/p13.jpg">
+                    <h3>Lunar Shift</h3>
+                    <p>₹7,499</p>
+                    <button>BUY NOW</button>
+                </div>
+                <div class="product-card">
+                    <img src="./img/p14.jpg">
+                    <h3>Ridge Runner</h3>
+                    <p>₹8,799</p>
+                    <button>BUY NOW</button>
+                </div>
+                <div class="product-card">
+                    <img src="./img/p15.jpg">
+                    <h3>Voltage Edge</h3>
+                    <p>₹9,299</p>
+                    <button>BUY NOW</button>
+                </div>
+                <div class="product-card">
+                    <img src="./img/p16.jpg">
+                    <h3>Halo Sprint</h3>
+                    <p>₹8,499</p>
+                    <button>BUY NOW</button>
+                </div>
+                <div class="product-card">
+                    <img src="./img/p17.jpg">
+                    <h3>Crimson Volt</h3>
+                    <p>₹7,899</p>
+                    <button>BUY NOW</button>
+                </div>
+                <div class="product-card">
+                    <img src="./img/p18.jpg">
+                    <h3>Neo Pulse</h3>
+                    <p>₹8,999</p>
+                    <button>BUY NOW</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product-section">
+        <h2>RUNNERS</h2>
+
+        <div class="slider-container">
+            <div class="product-slider">
+                <div class="product-card">
+                    <img src="./img/rnr1.jpg">
+                    <h3>Trail Charger</h3>
+                    <p>₹6,999</p>
+                    <button>BUY NOW</button>
+                </div>
+                <div class="product-card">
+                    <img src="./img/rnr2.jpg">
+                    <h3>Velocity Pro</h3>
+                    <p>₹7,499</p>
+                    <button>BUY NOW</button>
+                </div>
+                <div class="product-card">
+                    <img src="./img/rnr3.jpg">
+                    <h3>Aero Glide</h3>
+                    <p>₹7,299</p>
+                    <button>BUY NOW</button>
+                </div>
+                <div class="product-card">
+                    <img src="./img/rnr4.jpg">
+                    <h3>Road Hawk</h3>
+                    <p>₹7,799</p>
+                    <button>BUY NOW</button>
+                </div>
+                <div class="product-card">
+                    <img src="./img/rnr5.jpg">
+                    <h3>Street Swift</h3>
+                    <p>₹6,899</p>
+                    <button>BUY NOW</button>
+                </div>
+                <div class="product-card">
+                    <img src="./img/rnr6.jpg">
+                    <h3>Nimbus Run</h3>
+                    <p>₹7,199</p>
+                    <button>BUY NOW</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product-section">
+        <h2>Celebrity Collabs</h2>
+
+        <div class="slider-container">
+            <div class="product-slider">
+                <div class="product-card">
+                    <img src="./img/cele1.jpg">
+                    <h3>Kanye West X Adidas | Boost 350</h3>
+                    <p>₹23,499</p>
+                    <button>BUY NOW</button>
+                </div>
+                <div class="product-card">
+                    <img src="./img/cele2.jpg">
+                    <h3>Travis Scott X Nike | Cactus Jack</h3>
+                    <p>₹24,999</p>
+                    <button>BUY NOW</button>
+                </div>
+                <div class="product-card">
+                    <img src="./img/cele3.jpg">
+                    <h3>Kanye West X Adidas | Foamrunner</h3>
+                    <p>₹22,999</p>
+                    <button>BUY NOW</button>
+                </div>
+                <div class="product-card">
+                    <img src="./img/cele4.jpg">
+                    <h3>Kanye West X Adidas | Boost-750</h3>
+                    <p>₹21,999</p>
+                    <button>BUY NOW</button>
+                </div>
+                <div class="product-card">
+                    <img src="./img/cele5.jpg">
+                    <h3>Kanye West X Adidas | Boost 300</h3>
+                    <p>₹19,999</p>
+                    <button>BUY NOW</button>
+                </div>
+                <div class="product-card">
+                    <img src="./img/cele6.jpg">
+                    <h3>Travis Scott X Nike | Jordan Lows</h3>
+                    <p>₹25,499</p>
+                    <button>BUY NOW</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <h2>Nostra Kicks</h2>
+                <p>Step into style. Own the street.</p>
+            </div>
+
+            <div class="footer-columns">
+
+                <div class="footer-links">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p>Email: support@nostra.com</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Nostra Kicks. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
