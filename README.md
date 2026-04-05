@@ -30,6 +30,7 @@ style.css
 script.js
 images/
 ▶️ How to Run
+visit this link(https://arunkumar619.github.io/Nostra-kicks/) 
 Download or clone the project
 Open index.html in your browser
 📚 What I Practiced
